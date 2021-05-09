@@ -14,7 +14,7 @@ object Greetings {
   }
 
   def addSomeNumbers() : Int = {
-    4 + 3
+    10 + 3
   }
 
 }
