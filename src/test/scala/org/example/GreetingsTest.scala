@@ -14,4 +14,5 @@ class GreetingsTest extends AnyFlatSpecLike with Matchers{
   it should "compute addition" in {
     Greetings.addSomeNumbers() shouldEqual 7
   }
+
 }
