@@ -6,15 +6,13 @@ object Greetings {
     val greetings = printGreeting()
     val addition = addSomeNumbers()
 
-    println(greetings + " The addition is "+ addition)
+    println(greetings + " The addition is " + addition)
   }
 
-  def printGreeting() : String = {
+  def printGreeting(): String =
     "Hello world!"
-  }
 
-  def addSomeNumbers() : Int = {
+  def addSomeNumbers(): Int =
     5 + 3
-  }
 
 }
