@@ -13,6 +13,6 @@ object Greetings {
     "Hello world!"
 
   def addSomeNumbers(): Int =
-    5 + 3
+    5 + 5
 
 }
