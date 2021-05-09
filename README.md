@@ -1,0 +1,1 @@
+# CodecovScalaWithGitHub-Actions
