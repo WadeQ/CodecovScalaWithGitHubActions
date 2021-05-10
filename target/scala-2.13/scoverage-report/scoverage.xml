@@ -1,5 +1,5 @@
 <scoverage 
-statement-count="6" statements-invoked="2" statement-rate="33.33" branch-rate="100.00" version="1.0" timestamp="1620629983649">
+statement-count="6" statements-invoked="2" statement-rate="33.33" branch-rate="100.00" version="1.0" timestamp="1620646507525">
     <packages>
         <package name="org.example" statement-count="6" statements-invoked="2" statement-rate="33.33">
             <classes>
