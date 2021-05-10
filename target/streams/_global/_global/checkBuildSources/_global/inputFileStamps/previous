@@ -1,1 +1,0 @@
-["sbt.Task[scala.collection.Seq[scala.Tuple2[java.nio.file.Path, sbt.nio.FileStamp]]]",{"hashes":[["/home/wadek/CodecovScala/build.sbt","3de893cb8b73dfc0dc80642693eac2ce8c60c187"],["/home/wadek/CodecovScala/project/plugins.sbt","8b16ed04ce4be3b7b0721d75d153ff6141764308"]],"lastModifiedTimes":[]}]

@@ -1,27 +1,11 @@
 <scoverage 
-statement-count="6" statements-invoked="2" statement-rate="33.33" branch-rate="100.00" version="1.0" timestamp="1620646507525">
+statement-count="6" statements-invoked="2" statement-rate="33.33" branch-rate="100.00" version="1.0" timestamp="1620679270299">
     <packages>
         <package name="org.example" statement-count="6" statements-invoked="2" statement-rate="33.33">
             <classes>
                 <class 
                 name="org.example.Greetings" filename="org/example/Greetings.scala" statement-count="6" statements-invoked="2" statement-rate="33.33" branch-rate="100.00">
                     <methods>
-                        <method 
-                        name="org.example/Greetings/addSomeNumbers" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
-                            <statements>
-                                <statement 
-                                package="org.example" class="Greetings" class-type="Object" full-class-name="org.example.Greetings" source="/home/wadek/CodecovScala/src/main/scala/org/example/Greetings.scala" method="addSomeNumbers" start="303" end="308" line="16" branch="false" invocation-count="1" ignored="false">
-</statement>
-                            </statements>
-</method>
-                        <method 
-                        name="org.example/Greetings/printGreeting" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
-                            <statements>
-                                <statement 
-                                package="org.example" class="Greetings" class-type="Object" full-class-name="org.example.Greetings" source="/home/wadek/CodecovScala/src/main/scala/org/example/Greetings.scala" method="printGreeting" start="253" end="267" line="13" branch="false" invocation-count="1" ignored="false">
-</statement>
-                            </statements>
-</method>
                         <method 
                         name="org.example/Greetings/main" statement-count="4" statements-invoked="0" statement-rate="0.00" branch-rate="0.00">
                             <statements>
@@ -36,6 +20,22 @@ statement-count="6" statements-invoked="2" statement-rate="33.33" branch-rate="1
 </statement>
                                 <statement 
                                 package="org.example" class="Greetings" class-type="Object" full-class-name="org.example.Greetings" source="/home/wadek/CodecovScala/src/main/scala/org/example/Greetings.scala" method="main" start="168" end="210" line="9" branch="false" invocation-count="0" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="org.example/Greetings/printGreeting" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="org.example" class="Greetings" class-type="Object" full-class-name="org.example.Greetings" source="/home/wadek/CodecovScala/src/main/scala/org/example/Greetings.scala" method="printGreeting" start="253" end="267" line="13" branch="false" invocation-count="1" ignored="false">
+</statement>
+                            </statements>
+</method>
+                        <method 
+                        name="org.example/Greetings/addSomeNumbers" statement-count="1" statements-invoked="1" statement-rate="100.00" branch-rate="100.00">
+                            <statements>
+                                <statement 
+                                package="org.example" class="Greetings" class-type="Object" full-class-name="org.example.Greetings" source="/home/wadek/CodecovScala/src/main/scala/org/example/Greetings.scala" method="addSomeNumbers" start="303" end="308" line="16" branch="false" invocation-count="1" ignored="false">
 </statement>
                             </statements>
 </method>
