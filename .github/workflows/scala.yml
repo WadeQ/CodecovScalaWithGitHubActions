@@ -3,29 +3,23 @@ name: Scala CI
 on:
   push:
     branches:
-        - main
-        - development
+      - main
+      - development
   pull_request:
     branches:
-        - main
-        - development
+      - main
+      - development
 
 jobs:
-  test:
+  build:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v2
-    - name: Run tests
-      run: sbt coverage test
-    - name: Coverage Report
-      run: sbt coverageReport
-    - name: "Upload coverage to Codecov"
-      uses: "codecov/codecov-action@v1"
-      with:
-        fail_ci_if_error: true
-  lint:
-    runs-on: ubuntu-latest
-    steps:
-    - uses: actions/checkout@v2
-    - name: Formatting
-      run: sbt scalafmtSbtCheck scalafmtCheck test:scalafmtCheck
+      - uses: actions/checkout@v2
+      - name: Run tests
+        run: sbt coverage test
+      - name: Coverage Report
+        run: sbt coverageReport
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v1
+        with:
+          fail_ci_if_error: true
