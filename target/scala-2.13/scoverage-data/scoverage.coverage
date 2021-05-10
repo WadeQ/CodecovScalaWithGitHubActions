@@ -1,0 +1,122 @@
+# Coverage data, format version: 2.0
+# Statement data:
+# - id
+# - source path
+# - package name
+# - class name
+# - class type (Class, Object or Trait)
+# - full class name
+# - method name
+# - start offset
+# - end offset
+# - line number
+# - symbol name
+# - tree name
+# - is branch
+# - invocations count
+# - is ignored
+# - description (can be multi-line)
+# '' sign
+# ------------------------------------------
+1
+/home/wadek/CodecovScala/src/main/scala/org/example/Greetings.scala
+org.example
+Greetings
+Object
+org.example.Greetings
+main
+103
+118
+6
+org.example.Greetings.printGreeting
+Apply
+false
+0
+false
+Greetings.this.printGreeting()
+
+2
+/home/wadek/CodecovScala/src/main/scala/org/example/Greetings.scala
+org.example
+Greetings
+Object
+org.example.Greetings
+main
+138
+154
+7
+org.example.Greetings.addSomeNumbers
+Apply
+false
+0
+false
+Greetings.this.addSomeNumbers()
+
+3
+/home/wadek/CodecovScala/src/main/scala/org/example/Greetings.scala
+org.example
+Greetings
+Object
+org.example.Greetings
+main
+168
+210
+9
+java.lang.String.+
+Apply
+false
+0
+false
+greetings.+(" The addition is ").+(addition)
+
+4
+/home/wadek/CodecovScala/src/main/scala/org/example/Greetings.scala
+org.example
+Greetings
+Object
+org.example.Greetings
+main
+160
+211
+9
+scala.Predef.println
+Apply
+false
+0
+false
+scala.Predef.println(greetings.+(" The addition is ").+(addition))
+
+5
+/home/wadek/CodecovScala/src/main/scala/org/example/Greetings.scala
+org.example
+Greetings
+Object
+org.example.Greetings
+printGreeting
+253
+267
+13
+<nosymbol>
+Literal
+false
+0
+false
+"Hello world!"
+
+6
+/home/wadek/CodecovScala/src/main/scala/org/example/Greetings.scala
+org.example
+Greetings
+Object
+org.example.Greetings
+addSomeNumbers
+303
+308
+16
+<nosymbol>
+Literal
+false
+0
+false
+12
+

@@ -12,7 +12,7 @@ class GreetingsTest extends AnyFlatSpecLike with Matchers {
   }
 
   it should "compute addition" in {
-    Greetings.addSomeNumbers() shouldEqual 10
+    Greetings.addSomeNumbers() shouldEqual 12
   }
 
 }
